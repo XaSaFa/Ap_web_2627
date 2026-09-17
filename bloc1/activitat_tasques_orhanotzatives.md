@@ -1,11 +1,24 @@
 ## Activitat:
 
-Penseu 6 casos d'àmbits diferents en que seria important tenir una eina d'organització.
+1. Penseu en una tasca gran que es pugui dividir en, coma mínim, 10 tasques més petites.
 
-Agafeu 2 dels casos anteriors i penseu en 10 tasques diferents.
+- Entreu a [Trello](https://trello.com/es) i creeu un compte.
+- Creeu un tauler de Trello i deixeu tres apartats anomenats "Per fer", "En procés", "Fet".
+- Afegiu les 10 tasques anteriors a Per fer.
+- FEU CAPTURA DE PANTALLA
+- Passeu les tasques a Fet.
+- FEU CAPTURA DE PANTALLA
 
-- A Trello fareu un cas i a Kanbanflow un altre.
-- Feu tres apartats "Per fer", "En procés", "Fet".
-- Afegiu les 10 tasques a l'apartat "Per fer".
-- Aneu passant les tasques de "Per Fer" a "En procés" i després a "Fet".
-- Entregar un document en format pdf amb l'enunciat i les respostes, amb captures de pantalla de l'estat inicial i final de les aplicacions.
+2. Penseu en una tasca **DIFERENT** gran que es pugui dividir en, coma mínim, 10 tasques més petites.
+
+- Entreu a [Kanbanflow](https://kanbanflow.com/) i creeu un compte.
+- Creeu un tauler de Trello i deixeu tres apartats anomenats "Per fer", "En procés", "Fet".
+- Afegiu les 10 tasques anteriors a Per fer.
+- FEU CAPTURA DE PANTALLA
+- Passeu les tasques a Fet.
+- FEU CAPTURA DE PANTALLA
+
+3. Entregar un document en format pdf amb l'enunciat i les respostes incloent les captures de pantalla demanades.
+- El document ha de tenir portada amb el vostre nom i el del mòdul.
+- El document ha de tenir els enunciats amb les vostres respostes.
+
