@@ -1,6 +1,6 @@
 # MP 228 - Aplicacions Web
 
-## Curs 25/26
+## Curs 26/27
 
 **Explicació ISARD i VirtualBox.**
 **Afegir alumnat a Moodle.**
