@@ -31,3 +31,5 @@ En aquesta activitat repassarem tot el que hem vist a teoria.
 - Recupera el mail arxivat.
 - Llegeix un mail i després marca'l com no llegit.
 - Esborra els mails de l'exercici enviats i rebuts en aquesta pràctica.
+
+Entregar en pdf amb l'enunciat i les captures necessàries.
