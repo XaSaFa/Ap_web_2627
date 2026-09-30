@@ -31,18 +31,32 @@ sudo apt install git
 3. Clonem el repositori de git del projecte etherpad al nostre ordinador:
 
 ```
-git clone https://gitlab.com/xtec/web/etherpad
-```
-
-Això crea una carpeta nova anomenada etherpad.
-
-<img width="625" height="75" alt="image" src="https://github.com/user-attachments/assets/a0224797-dbeb-4c9e-b07c-a02bd37a23d4" />
-
-4. Accedim a la carpeta:
-
-```
+mkdir etherpad
 cd etherpad
+sudo nano docker-compose.yml
 ```
+
+4. Afegim al document aquestes línies:
+
+```
+version: '3.8'
+
+services:
+  etherpad:
+    image: etherpad/etherpad
+    container_name: etherpad
+    restart: always
+    ports:
+      - "8084:9001"
+    environment:
+      TITLE: "Etherpad for Collaboration"
+      ADMIN_PASSWORD: "adminpassword" # Адміністративний пароль
+      DB_TYPE: "dirty" # Простий режим збереження (без бази даних)
+    volumes:
+      - ./.app/etherpad-data:/var/lib/etherpad
+
+```
+Guardem el document amb Control+s i sortim amb Control+X
 
 En aquesta carpeta hi ha un fitxer amb el nom docker-compose.yml .
 
@@ -66,7 +80,7 @@ S'anirà carregant el docker:
 
 <img width="653" height="103" alt="image" src="https://github.com/user-attachments/assets/2765d093-f9be-4d10-b544-e0eeee028740" />
 
-7. Obrim el navegador a l’adreça http://localhost:3000 per connectar-nos a Etherpad:
+7. Obrim el navegador a l’adreça http://localhost:8084 per connectar-nos a Etherpad:
 
 <img width="850" height="873" alt="image" src="https://github.com/user-attachments/assets/a24462df-dc36-4ba2-afb9-2420903060dd" />
 
