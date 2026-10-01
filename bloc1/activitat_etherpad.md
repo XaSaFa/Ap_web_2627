@@ -14,6 +14,7 @@ Utilitzant la teva instal·lació d'Etherpad has de fer:
   <img width="244" height="268" alt="image" src="https://github.com/user-attachments/assets/79c774bf-0f46-4980-a6f8-806969a4bfea" />
 <img width="616" height="401" alt="image" src="https://github.com/user-attachments/assets/ad770f2c-0796-4e44-897b-bba44571faf9" />
 <img width="795" height="552" alt="image" src="https://github.com/user-attachments/assets/291031df-c740-4ff7-8df0-e9d47a75aefd" />
+
 - Accediu al Etherpad d'un company ficant al vostre navegador de la MV la URL: http://IP_DEL_COMPANY:8084 (on IP del company és la seva IP).
 
 
