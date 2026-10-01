@@ -8,9 +8,9 @@ Utilitzant la teva instal·lació d'Etherpad has de fer:
   - Identifica i explica la funció de Xat.<br>
   <img width="112" height="48" alt="image" src="https://github.com/user-attachments/assets/f44da85f-7a55-4a78-9532-e17bc1d7c9ae" /><br>
 2. Utilització d'Etherpad online.
-  - Ara apaga la màquina virtual i afegeix la xarxa IAB-1SMXB-1.
+- Ara apaga la màquina virtual i afegeix la xarxa IAB-1SMXB-1.
   <img width="237" height="182" alt="image" src="https://github.com/user-attachments/assets/6973be67-6417-415b-975d-daaceaaa3e3d" />
-  - Encén la MV i a la connexió 2 afegeix la IP 192.168.1.X on X és el teu número de taula - edita les connexions.
+- Encén la MV i a la connexió 2 afegeix la IP 192.168.1.X on X és el teu número de taula - edita les connexions.
   <img width="244" height="268" alt="image" src="https://github.com/user-attachments/assets/79c774bf-0f46-4980-a6f8-806969a4bfea" />
 <img width="616" height="401" alt="image" src="https://github.com/user-attachments/assets/ad770f2c-0796-4e44-897b-bba44571faf9" />
 <img width="795" height="552" alt="image" src="https://github.com/user-attachments/assets/291031df-c740-4ff7-8df0-e9d47a75aefd" />
