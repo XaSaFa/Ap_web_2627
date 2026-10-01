@@ -21,14 +21,7 @@ Tanmateix, és una veritable eina de col·laboració en temps real que pot impli
 ```
 sudo apt update
 ```
-
-2. Instal·lem git:
-
-```
-sudo apt install git
-```
-
-3. Clonem el repositori de git del projecte etherpad al nostre ordinador:
+2. Fem una carpeta per a etherpat, accedim a ella i creem el fitxer docker-compose.yml:
 
 ```
 mkdir etherpad
@@ -36,7 +29,7 @@ cd etherpad
 sudo nano docker-compose.yml
 ```
 
-4. Afegim al document aquestes línies:
+3. Afegim al document aquestes línies:
 
 ```
 version: '3.8'
@@ -56,19 +49,15 @@ services:
       - ./.app/etherpad-data:/var/lib/etherpad
 
 ```
-Guardem el document amb Control+s i sortim amb Control+X
+Guardem el document amb Control+S i sortim amb Control+X
 
-En aquesta carpeta hi ha un fitxer amb el nom docker-compose.yml .
-
-<img width="319" height="51" alt="image" src="https://github.com/user-attachments/assets/4d03f870-8f5b-4216-9ecf-1e9a6b9aa93c" />
-
-5. Instal·lem docker:
+4. Instal·lem docker:
 
 ```
 sudo snap install docker
 ```
 
-6. Arranquem el servei etherpad:
+5. Arranquem el servei etherpad dockeritzat:
 
 ```
 sudo docker compose up -d
@@ -80,11 +69,11 @@ S'anirà carregant el docker:
 
 <img width="653" height="103" alt="image" src="https://github.com/user-attachments/assets/2765d093-f9be-4d10-b544-e0eeee028740" />
 
-7. Obrim el navegador a l’adreça http://localhost:8084 per connectar-nos a Etherpad:
+6. Obrim el navegador a l’adreça http://localhost:8084 per connectar-nos a Etherpad:
 
 <img width="850" height="873" alt="image" src="https://github.com/user-attachments/assets/a24462df-dc36-4ba2-afb9-2420903060dd" />
 
-8. Podem crear un nou PAD amb un nom aleatori o assignar-li un nom:
+7. Podem crear un nou PAD amb un nom aleatori o assignar-li un nom:
 
 <img width="859" height="873" alt="image" src="https://github.com/user-attachments/assets/173c9bdf-cd2b-4204-8e9a-7de2d673168f" />
  
