@@ -26,32 +26,28 @@ sudo nano docker-compose.yml
 Afegim el text.
 ```
 ---
-version: "2.1"
 services:
-  installer:
-    image: nicholaswilde/cryptpad
+  cryptpad:
+    image: cryptpad/cryptpad:latest
     container_name: cryptpad
-    ports:
-      - 3000:3000
     restart: unless-stopped
-    environment:
-      - TZ=America/Los_Angeles  # optional
-      - PUID=1000               # optional
-      - PGID=1000               # optional
+    ports:
+      - "3000:3000"
+      - "3003:3003"
     volumes:
-      - blob:/blob
-      - block:/block
-      - customize:/customize
-      - config:/config
-      - data:/data
-      - datastore:/datastore
+      - cryptpad_blob:/cryptpad/blob
+      - cryptpad_block:/cryptpad/block
+      - cryptpad_data:/cryptpad/data
+      - cryptpad_customize:/cryptpad/customize
+    environment:
+      - CPAD_MAIN_DOMAIN=http://localhost:3000
+      - CPAD_SANDBOX_DOMAIN=http://localhost:3003
+
 volumes:
-  blob:
-  block:
-  customize:
-  config:
-  data:
-  datastore:
+  cryptpad_blob:
+  cryptpad_block:
+  cryptpad_data:
+  cryptpad_customize:
 ```
 
 Executem el docker.
