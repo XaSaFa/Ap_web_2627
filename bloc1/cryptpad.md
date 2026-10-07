@@ -25,42 +25,33 @@ sudo nano docker-compose.yml
 
 Afegim el text.
 ```
-# SPDX-FileCopyrightText: 2023 XWiki CryptPad Team <contact@cryptpad.org> and contributors
-#
-# SPDX-License-Identifier: AGPL-3.0-or-later
-
 ---
+version: "2.1"
 services:
-  cryptpad:
-    image: "cryptpad/cryptpad:latest"
-    hostname: cryptpad
-
-    environment:
-      - CPAD_MAIN_DOMAIN=https://your-main-domain.com
-      - CPAD_SANDBOX_DOMAIN=https://your-sandbox-domain.com
-      - CPAD_CONF=/cryptpad/config/config.js
-
-      # Read and accept the license before uncommenting the following line:
-      # https://github.com/ONLYOFFICE/web-apps/blob/master/LICENSE.txt
-      # - CPAD_INSTALL_ONLYOFFICE=yes
-
-    volumes:
-      - ./data/blob:/cryptpad/blob
-      - ./data/block:/cryptpad/block
-      - ./customize:/cryptpad/customize
-      - ./data/data:/cryptpad/data
-      - ./data/files:/cryptpad/datastore
-      - ./onlyoffice-dist:/cryptpad/www/common/onlyoffice/dist
-      - ./onlyoffice-conf:/cryptpad/onlyoffice-conf
-
+  installer:
+    image: nicholaswilde/cryptpad
+    container_name: cryptpad
     ports:
-      - "3000:3000"
-      - "3003:3003"
-
-    ulimits:
-      nofile:
-        soft: 1000000
-        hard: 1000000
+      - 3000:3000
+    restart: unless-stopped
+    environment:
+      - TZ=America/Los_Angeles  # optional
+      - PUID=1000               # optional
+      - PGID=1000               # optional
+    volumes:
+      - blob:/blob
+      - block:/block
+      - customize:/customize
+      - config:/config
+      - data:/data
+      - datastore:/datastore
+volumes:
+  blob:
+  block:
+  customize:
+  config:
+  data:
+  datastore:
 ```
 
 Executem el docker.
