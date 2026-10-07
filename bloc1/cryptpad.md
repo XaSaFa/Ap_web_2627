@@ -30,24 +30,24 @@ services:
   cryptpad:
     image: cryptpad/cryptpad:latest
     container_name: cryptpad
+    hostname: cryptpad
     restart: unless-stopped
     ports:
       - "3000:3000"
-      - "3003:3003"
-    volumes:
-      - cryptpad_blob:/cryptpad/blob
-      - cryptpad_block:/cryptpad/block
-      - cryptpad_data:/cryptpad/data
-      - cryptpad_customize:/cryptpad/customize
     environment:
-      - CPAD_MAIN_DOMAIN=http://localhost:3000
-      - CPAD_SANDBOX_DOMAIN=http://localhost:3003
-
-volumes:
-  cryptpad_blob:
-  cryptpad_block:
-  cryptpad_data:
-  cryptpad_customize:
+      - CPAD_MAIN_DOMAIN=https://pad.tu-dominio.com
+      - CPAD_SANDBOX_DOMAIN=https://sandbox.tu-dominio.com
+      - CPAD_CONF=/cryptpad/config/config.js
+      # Descomenta para habilitar integración con OnlyOffice
+      # - CPAD_INSTALL_ONLYOFFICE=yes
+    volumes:
+      - ./data/blob:/cryptpad/blob
+      - ./data/block:/cryptpad/block
+      - ./data/data:/cryptpad/data
+      - ./data/files:/cryptpad/datastore
+      - ./customize:/cryptpad/customize
+      - ./onlyoffice-dist:/cryptpad/www/common/onlyoffice/dist
+      - ./onlyoffice-conf:/cryptpad/onlyoffice-conf
 ```
 
 Executem el docker.
