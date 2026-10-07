@@ -25,7 +25,6 @@ sudo nano docker-compose.yml
 
 Afegim el text.
 ```
----
 services:
   cryptpad:
     image: cryptpad/cryptpad:latest
@@ -35,11 +34,9 @@ services:
     ports:
       - "3000:3000"
     environment:
-      - CPAD_MAIN_DOMAIN=https://pad.tu-dominio.com
-      - CPAD_SANDBOX_DOMAIN=https://sandbox.tu-dominio.com
+      - CPAD_MAIN_DOMAIN=http://localhost:3000
+      - CPAD_SANDBOX_DOMAIN=http://127.0.0.1:3000
       - CPAD_CONF=/cryptpad/config/config.js
-      # Descomenta para habilitar integración con OnlyOffice
-      # - CPAD_INSTALL_ONLYOFFICE=yes
     volumes:
       - ./data/blob:/cryptpad/blob
       - ./data/block:/cryptpad/block
