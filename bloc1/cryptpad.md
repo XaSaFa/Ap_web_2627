@@ -54,8 +54,18 @@ services:
 
 ```
 sudo snap install docker
-docker compose up -d
+sudo docker compose up -d
 ```
+
+- Modifiquem permissos
+
+```
+cd ..
+sudo chmod 777 -R cryptpad/
+cd cryptpad
+sudo docker compose up -d
+```
+
 
 - Anem al navegador i obrim http://localhost:3000
 
