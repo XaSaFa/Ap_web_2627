@@ -10,20 +10,23 @@ Web del projecte: [https://cryptpad.org/](https://cryptpad.org/)
 
 ## Instal·lació
 
-Clonem el projecte.
+- Actualitzem els repositoris
 
 ```
 sudo apt update
 ```
 
-Fem el fitxer del docker.
+- Creem la carpeta de Cryptpad
+- Accedim a dins de la carpeta
+- Editem el fitxer del docker
+  
 ```
 mkdir cryptpad
 cd cryptpad
 sudo nano docker-compose.yml
 ```
 
-Afegim el text.
+- Afegim el text
 ```
 services:
   cryptpad:
@@ -47,14 +50,14 @@ services:
       - ./onlyoffice-conf:/cryptpad/onlyoffice-conf
 ```
 
-Executem el docker.
+- Executem el docker.
 
 ```
 sudo snap install docker
 docker compose up -d
 ```
 
-Anem al navegador i obrim http://localhost:3000
+- Anem al navegador i obrim http://localhost:3000
 
 <img width="1874" height="1086" alt="image" src="https://github.com/user-attachments/assets/af627680-a628-406a-b372-7ca8fc7d97a7" />
 
