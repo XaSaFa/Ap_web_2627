@@ -7,7 +7,7 @@ Cada alumne treballa a la seva pròpia MV i al seu propi servidor CryptPad. Anot
 ### 1.0 Arrencada i comprovació de xarxa (0,5 punts)
 
 1. Engega la MV i comprova que el servei CryptPad està actiu.
-2. Esbrina l'adreça IP de la teva MV (`ip a`) i apunta-la a la pissarra o al full de la classe.
+2. Esbrina l'adreça IP de la teva MV (`ip a`) i aqui.
 3. Fes `ping` a la MV de dos companys.
 4. Obre el navegador a `http://<la_teva_IP>:3000` i comprova que carrega la pàgina d'inici de CryptPad.
 
