@@ -114,5 +114,4 @@ La nota final és sobre 10 punts: 4 de la part individual i 6 del treball en gru
 
 **Lliurables**
 
-- [ ] Individual: enllaç de **només lectura** a l'`Informe_CognomNom` amb respostes i captures.
-- [ ] Grup: enllaç protegit amb contrasenya a la `Proposta_Client`, amb enllaços als altres documents de l'equip.
+pdf amb l'enunciat copiat i captures de pantalla demostrant que has fet la feina que es demana. NO OBLIDIS LA PORTADA!
