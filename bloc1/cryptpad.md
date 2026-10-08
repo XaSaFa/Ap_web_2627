@@ -23,7 +23,7 @@ sudo apt update
 ```
 mkdir cryptpad
 cd cryptpad
-sudo nano docker-compose.yml
+nano docker-compose.yml
 ```
 
 - Afegim el text
