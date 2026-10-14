@@ -13,7 +13,7 @@ A la MV:
 
 ## Part 1 – Treball individual (4 punts)
 
-Cada alumne treballa a la seva pròpia MV i al seu propi servidor CryptPad. Anota les respostes i captures en un document **Text enriquit** de CryptPad anomenat `Informe_CognomNom` (el crearàs a l'exercici 1.3).
+Cada alumne treballa a la seva pròpia MV i al seu propi servidor CryptPad. Anota les respostes i captures en un document `Informe_CognomNom`.
 
 ### 1.0 Arrencada i comprovació de xarxa (0,5 punts)
 
