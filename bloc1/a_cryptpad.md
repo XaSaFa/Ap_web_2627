@@ -2,6 +2,12 @@
 
 Modifiqueu la interfície de xarxa 3:
 
+A ISARD:
+
+<img width="750" height="99" alt="image" src="https://github.com/user-attachments/assets/ac91abd1-efbc-4a13-9b2a-ed88f67db015" />
+
+A la MV:
+
 <img width="692" height="233" alt="image" src="https://github.com/user-attachments/assets/9646f027-8689-4bef-bacb-c73552cdd220" />
 
 
