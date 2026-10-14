@@ -1,5 +1,10 @@
 # Activitat Cryptpad.
 
+Modifiqueu la interfície de xarxa 3:
+
+<img width="692" height="233" alt="image" src="https://github.com/user-attachments/assets/9646f027-8689-4bef-bacb-c73552cdd220" />
+
+
 ## Part 1 – Treball individual (4 punts)
 
 Cada alumne treballa a la seva pròpia MV i al seu propi servidor CryptPad. Anota les respostes i captures en un document **Text enriquit** de CryptPad anomenat `Informe_CognomNom` (el crearàs a l'exercici 1.3).
