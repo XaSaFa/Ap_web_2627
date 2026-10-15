@@ -79,7 +79,7 @@ A la carpeta `Personal`, crea un document de cada tipus i fes-hi una tasca míni
 
 ## Lliurables i avaluació
 
-La nota final és sobre 10 punts: 4 de la part individual i 6 del treball en grup.
+La nota final és sobre 4 punts.
 
 **Lliurables**
 
