@@ -55,7 +55,6 @@ A la carpeta `Personal`, crea un document de cada tipus i fes-hi una tasca míni
 | Aplicació | Tasca |
 | --- | --- |
 | Text enriquit | El teu `Informe_CognomNom` (aquí respondràs totes les preguntes) |
-| Full de càlcul | Taula amb 5 components d'un PC, preu i una fórmula de total amb IVA |
 | Codi | Un script bash curt que mostri la IP i el nom de la màquina |
 | Kanban | Tauler amb les columnes Pendent / En curs / Fet i 3 targetes |
 | Pissarra | Esquema de la xarxa de la classe (MV i IP) |
