@@ -92,6 +92,14 @@ sudo service apache2 restart
 
 <img width="358" height="695" alt="imatge" src="https://github.com/user-attachments/assets/e3eb37f5-1602-4929-ab08-beade1578341" />
 
+### Ja està
+
+Heu d'entrar amb l'usuari administrador que heu creat
+
+<img width="424" height="440" alt="imatge" src="https://github.com/user-attachments/assets/e79490fc-c42e-4ee2-ad64-cadf1cb98df5" />
+
+<img width="1590" height="749" alt="imatge" src="https://github.com/user-attachments/assets/21a9cd51-981c-4397-a829-f69df2ac4d96" />
+
 ## Accedir a owncloud des d'un altre ordinador:
 
 Heu d'editar el fitxer config.php
