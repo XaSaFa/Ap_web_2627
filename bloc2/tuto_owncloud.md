@@ -77,9 +77,9 @@ Per exemple si falta el mòdul zip hem de ficar al terminal:
 sudo apt install php8.3-zip
 sudo service apache2 restart
 ```
-Reiniciem el servidor Apache cada vegada que instal·lem un mòdul nou.
+<img width="860" height="121" alt="imatge" src="https://github.com/user-attachments/assets/9f456824-6ec1-4509-8130-ddc34b83be8d" />
 
-<img width="511" height="728" alt="imatge" src="https://github.com/user-attachments/assets/7664e2d3-88d8-41df-99d9-b129b65eac01" />
+Reiniciem el servidor Apache cada vegada que instal·lem un mòdul nou.
 
 ## Accedir a owncloud des d'un altre ordinador:
 
