@@ -82,6 +82,16 @@ sudo service apache2 restart
 
 **Reiniciem el servidor Apache cada vegada que instal·lem un mòdul nou.**
 
+## Configuració de Owncloud
+
+### Heu de crear un compte administrador (important: enrecordeu-vos del nom d'usuari i password).
+
+<img width="365" height="507" alt="imatge" src="https://github.com/user-attachments/assets/d4529ff2-f1be-402b-aa11-e590cc1fd145" />
+
+### Ompliu la informació de la base de dades
+
+<img width="358" height="695" alt="imatge" src="https://github.com/user-attachments/assets/e3eb37f5-1602-4929-ab08-beade1578341" />
+
 ## Accedir a owncloud des d'un altre ordinador:
 
 Heu d'editar el fitxer config.php
