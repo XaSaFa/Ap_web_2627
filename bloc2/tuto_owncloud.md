@@ -79,7 +79,8 @@ sudo service apache2 restart
 ```
 <img width="860" height="121" alt="imatge" src="https://github.com/user-attachments/assets/9f456824-6ec1-4509-8130-ddc34b83be8d" />
 
-Reiniciem el servidor Apache cada vegada que instal·lem un mòdul nou.
+
+**Reiniciem el servidor Apache cada vegada que instal·lem un mòdul nou.**
 
 ## Accedir a owncloud des d'un altre ordinador:
 
