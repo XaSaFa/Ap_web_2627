@@ -5,6 +5,7 @@
 La seguretat de contrasenyes és essencial en qualsevol sistema de gestió de fitxers al núvol, com OwnCloud, per protegir les dades i la privadesa dels usuaris. A continuació, es presenten algunes directives de seguretat de contrasenyes que els usuaris han de seguir a OwnCloud:
 
 [Password Strength](https://passwordmonster.com)
+[Seguretat contrasenya](https://bitwarden.com/es-la/password-strength/)
 
 1. **Longitud de contrasenya:** Utilitza contrasenyes prou llargues. Es recomana una longitud mínima de com a mínim 12 caràcters. Com més llarga sigui la contrasenya, més segura serà.
 
