@@ -65,15 +65,14 @@ Des d'un navegador de la Màquiva Virtual escrivim: **localhost/owncloud**
 
 **Us faltaran mòduls de PHP** s'instal·len amb la comanda:
 
-```
-sudo apt install php8.3-nomdelmòdul
-```
+**sudo apt install php8.3-nomdelmòdul**
 
 Per exemple si falta el mòdul zip hem de ficar al terminal:
 
 ```
 sudo apt install php8.3-zip
 ```
+En principi heu d'instal·lar els mòduls: zip, gd, mysql i xml...
 
 Reiniciem el servidor Apache cada vegada que instal·lem un mòdul nou.
 
