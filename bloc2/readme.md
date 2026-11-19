@@ -9,8 +9,6 @@
   - [Activitat 2 - Ús de Google Drive](activitat2.md)
 - [Seguretat de contrasenyes](passwords.md)
 - [Tutorial instal·lació Owncloud](owncloud.md)
-  - [Activitat 1 - Owncloud](owncloud1.md)
-  - [Activitat 2 - Owncloud](owncloud-2.md)
 
  
 ### Recursos: 
