@@ -9,6 +9,7 @@
   - [Activitat 2 - Ús de Google Drive](activitat2.md)
 - [Seguretat de contrasenyes](passwords.md)
 - [Tutorial instal·lació Owncloud](owncloud.md)
+-  [Connectar dues MVs a ISARD](connectar_2_MV.md)
 
  
 ### Recursos: 
