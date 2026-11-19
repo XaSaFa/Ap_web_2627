@@ -63,6 +63,9 @@ sudo service apache2 restart
 
 Des d'un navegador de la Màquiva Virtual escrivim: **localhost/owncloud**
 
+<img width="612" height="781" alt="image" src="https://github.com/user-attachments/assets/563c4bb2-422e-4061-bd78-b24bf95edd5d" />
+
+
 **Us faltaran mòduls de PHP** s'instal·len amb la comanda:
 
 **sudo apt install php8.3-nomdelmòdul**
